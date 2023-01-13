@@ -1,0 +1,17 @@
+D:\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetData\bin\Debug\net6.0\PetzeyPetData.deps.json
+D:\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetData\bin\Debug\net6.0\PetzeyPetData.runtimeconfig.json
+D:\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetData\bin\Debug\net6.0\PetzeyPetData.dll
+D:\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetData\bin\Debug\net6.0\PetzeyPetData.pdb
+D:\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetData\bin\Debug\net6.0\PetzeyPetDomain.dll
+D:\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetData\bin\Debug\net6.0\PetzeyPetDomain.pdb
+D:\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetData\obj\Debug\net6.0\PetzeyPetData.csproj.AssemblyReference.cache
+D:\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetData\obj\Debug\net6.0\PetzeyPetData.GeneratedMSBuildEditorConfig.editorconfig
+D:\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetData\obj\Debug\net6.0\PetzeyPetData.AssemblyInfoInputs.cache
+D:\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetData\obj\Debug\net6.0\PetzeyPetData.AssemblyInfo.cs
+D:\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetData\obj\Debug\net6.0\PetzeyPetData.csproj.CoreCompileInputs.cache
+D:\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetData\obj\Debug\net6.0\PetzeyPetData.csproj.CopyComplete
+D:\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetData\obj\Debug\net6.0\PetzeyPetData.dll
+D:\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetData\obj\Debug\net6.0\refint\PetzeyPetData.dll
+D:\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetData\obj\Debug\net6.0\PetzeyPetData.pdb
+D:\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetData\obj\Debug\net6.0\PetzeyPetData.genruntimeconfig.cache
+D:\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetData\obj\Debug\net6.0\ref\PetzeyPetData.dll
