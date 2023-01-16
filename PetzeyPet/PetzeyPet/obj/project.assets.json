@@ -2,6 +2,35 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "AutoMapper/12.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "12.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Azure.Core/1.24.0": {
         "type": "package",
         "dependencies": {
@@ -1588,6 +1617,21 @@
           }
         }
       },
+      "PetzeyPetBusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "PetzeyPetDTO": "1.0.0",
+          "PetzeyPetDomain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PetzeyPetBusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PetzeyPetBusinessLogic.dll": {}
+        }
+      },
       "PetzeyPetData/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1611,10 +1655,49 @@
         "runtime": {
           "bin/placeholder/PetzeyPetDomain.dll": {}
         }
+      },
+      "PetzeyPetDTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PetzeyPetDTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PetzeyPetDTO.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "AutoMapper/12.0.0": {
+      "sha512": "0Rmg0zI5AFu1O/y//o9VGyhxKjhggWpk9mOA1tp0DEVx40c61bs+lnQv+0jUq8XbniF7FKgIVvI1perqiMtLrA==",
+      "type": "package",
+      "path": "automapper/12.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.12.0.0.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.dll",
+        "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.0": {
+      "sha512": "XCJ4E3oKrbRl1qY9Mr+7uyC0xZj1+bqQjmQRWTiTKiVuuXTny+7YFWHi20tPjwkMukLbicN6yGlDy5PZ4wyi1w==",
+      "type": "package",
+      "path": "automapper.extensions.microsoft.dependencyinjection/12.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+        "automapper.extensions.microsoft.dependencyinjection.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+      ]
+    },
     "Azure.Core/1.24.0": {
       "sha512": "+/qI1j2oU1S4/nvxb2k/wDsol00iGf1AyJX5g3epV7eOpQEP/2xcgh/cxgKMeFgn3U2fmgSiBnQZdkV+l5y0Uw==",
       "type": "package",
@@ -4405,6 +4488,11 @@
         "version.txt"
       ]
     },
+    "PetzeyPetBusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../PetzeyPetBusinessLogic/PetzeyPetBusinessLogic.csproj",
+      "msbuildProject": "../PetzeyPetBusinessLogic/PetzeyPetBusinessLogic.csproj"
+    },
     "PetzeyPetData/1.0.0": {
       "type": "project",
       "path": "../PetzeyPetData/PetzeyPetData.csproj",
@@ -4414,6 +4502,11 @@
       "type": "project",
       "path": "../PetzeyPetDomain/PetzeyPetDomain.csproj",
       "msbuildProject": "../PetzeyPetDomain/PetzeyPetDomain.csproj"
+    },
+    "PetzeyPetDTO/1.0.0": {
+      "type": "project",
+      "path": "../Petzey.Pet.DTO/PetzeyPetDTO.csproj",
+      "msbuildProject": "../Petzey.Pet.DTO/PetzeyPetDTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4424,6 +4517,8 @@
       "Microsoft.AspNetCore.OData >= 7.5.14",
       "Microsoft.Identity.Web >= 1.24.1",
       "Microsoft.Identity.Web.UI >= 1.16.0",
+      "PetzeyPetBusinessLogic >= 1.0.0",
+      "PetzeyPetDTO >= 1.0.0",
       "PetzeyPetData >= 1.0.0",
       "PetzeyPetDomain >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -4436,11 +4531,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\PetzeyPetApi.csproj",
+      "projectUniqueName": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\PetzeyPetApi.csproj",
       "projectName": "PetzeyPetApi",
-      "projectPath": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\PetzeyPetApi.csproj",
+      "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\PetzeyPetApi.csproj",
       "packagesPath": "C:\\Users\\SFaizan\\.nuget\\packages\\",
-      "outputPath": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\obj\\",
+      "outputPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4462,11 +4557,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetData\\PetzeyPetData.csproj": {
-              "projectPath": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetData\\PetzeyPetData.csproj"
+            "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\Petzey.Pet.DTO\\PetzeyPetDTO.csproj": {
+              "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\Petzey.Pet.DTO\\PetzeyPetDTO.csproj"
             },
-            "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj": {
-              "projectPath": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj"
+            "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetBusinessLogic\\PetzeyPetBusinessLogic.csproj": {
+              "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetBusinessLogic\\PetzeyPetBusinessLogic.csproj"
+            },
+            "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetData\\PetzeyPetData.csproj": {
+              "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetData\\PetzeyPetData.csproj"
+            },
+            "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj": {
+              "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj"
             }
           }
         }

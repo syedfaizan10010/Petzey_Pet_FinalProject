@@ -1,0 +1,6 @@
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetApiTests\bin\Release\net6.0\CoverletSourceRootsMapping
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetApiTests\obj\Release\net6.0\PetzeyPetApiTests.csproj.AssemblyReference.cache
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetApiTests\obj\Release\net6.0\PetzeyPetApiTests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetApiTests\obj\Release\net6.0\PetzeyPetApiTests.AssemblyInfoInputs.cache
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetApiTests\obj\Release\net6.0\PetzeyPetApiTests.AssemblyInfo.cs
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPetApiTests\obj\Release\net6.0\PetzeyPetApiTests.csproj.CoreCompileInputs.cache

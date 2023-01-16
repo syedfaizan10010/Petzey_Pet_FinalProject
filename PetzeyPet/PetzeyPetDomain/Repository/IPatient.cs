@@ -14,6 +14,7 @@ namespace PetzeyPetDomain.Repository
         List<Patient> GetPatient();//For List View
         Patient GetPatientById(int id); //For Card View
 
+
         void UpdatePatient(Patient patient, int petId); //For editing the patient details
         void DeletePatient(int id); //For Deleting any Patient profile
 

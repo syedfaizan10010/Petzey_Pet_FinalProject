@@ -36,26 +36,29 @@ namespace PetzeyPetData
             return db.Patients.ToList();
         }
 
+        
+
         public Patient GetPatientById(int id)
         {
-            return db.Patients.Find(id);
+           //return db.Patients.Find(id);
+            return db.Patients.Where(x => x.PetId == id).First();
         }
 
         public void UpdatePatient(Patient patient, int petId)
         {
-
-            var PatienttoUpdate = db.Patients.FirstOrDefault(x => x.petId == petId);
+            
+            var PatienttoUpdate = db.Patients.FirstOrDefault(x => x.PetId == petId);
             if (PatienttoUpdate != null)
             {
-                PatienttoUpdate.firstName = patient.firstName;
-                PatienttoUpdate.lastName = patient.lastName;
-                PatienttoUpdate.age = patient.age;
-                PatienttoUpdate.gender = patient.gender;
-                PatienttoUpdate.address = patient.address;
-                PatienttoUpdate.ownerEmail = patient.ownerEmail;
-                PatienttoUpdate.ownerPhoneNo = patient.ownerPhoneNo;
-                PatienttoUpdate.avatar = patient.avatar;
-                PatienttoUpdate.status = patient.status;
+                PatienttoUpdate.OwnerFirstName = patient.OwnerFirstName;
+                PatienttoUpdate.OwnerLastName = patient.OwnerLastName;
+                PatienttoUpdate.PetAge = patient.PetAge;
+                PatienttoUpdate.Gender = patient.Gender;
+                PatienttoUpdate.Address = patient.Address;
+                PatienttoUpdate.OwnerEmail = patient.OwnerEmail;
+                PatienttoUpdate.OwnerPhoneNo = patient.OwnerPhoneNo;
+                PatienttoUpdate.Avatar = patient.Avatar;
+                PatienttoUpdate.Status = patient.Status;
                 db.SaveChanges();
 
             }

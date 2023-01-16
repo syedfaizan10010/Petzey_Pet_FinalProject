@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj": {}
+    "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj": {}
   },
   "projects": {
-    "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj": {
+    "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj",
+        "projectUniqueName": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj",
         "projectName": "PetzeyPetDomain",
-        "projectPath": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj",
+        "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj",
         "packagesPath": "C:\\Users\\SFaizan\\.nuget\\packages\\",
-        "outputPath": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\obj\\",
+        "outputPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

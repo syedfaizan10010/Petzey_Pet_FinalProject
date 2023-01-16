@@ -10,25 +10,28 @@ namespace PetzeyPetDomain.Entities
     public class Patient
     {
         [Key]
-        public int petId { get; set; }
-        public string firstName { get; set; }
-        public string lastName { get; set; }
-        public int age { get; set; }
-        public Gender gender { get; set; }
-        public string address { get; set; }
-        public string state { get; set; }
-        public string ownerEmail { get; set; }
-        public string ownerPhoneNo { get; set; }
-        public string avatar { get; set; }
-        public Status status { get; set; }
+        public int PetId { get; set; }
+        public string OwnerFirstName { get; set; }
+        public string OwnerLastName { get; set; }
+        public string OwnerEmail { get; set; }
+        public string PetName { get; set; }
+        public string PetBreed { get; set; }
+        public string PetAge { get; set; }
+        public gender Gender { get; set; }
+        public string Address { get; set; }
+        
+        public string OwnerPhoneNo { get; set; }
+        public string Avatar { get; set; }
+        public string ShortBiography { get; set; }
+        public status Status { get; set; }
 
         //Enumaration class
-        public enum Gender
+        public enum gender
         {
             Male,
             Female
         }
-        public enum Status
+        public enum status
         {
             Active,
             InActive

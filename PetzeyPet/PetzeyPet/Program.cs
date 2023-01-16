@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Identity.Web;
 using Microsoft.Identity.Web.Resource;
+using PetzeyPetBusinessLogic.AutoMapper;
 using PetzeyPetData;
 using PetzeyPetDomain.Repository;
 
@@ -18,12 +19,26 @@ namespace PetzeyPet
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
 
-            builder.Services.AddControllers().AddXmlDataContractSerializerFormatters().AddNewtonsoftJson();
+            builder.Services.AddControllers().AddNewtonsoftJson();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddSingleton<IPatient, PatientRepository>();
+            builder.Services.AddControllers();
+            builder.Services.AddAutoMapper(typeof(AutoMapperPatient).Assembly);    
             builder.Services.AddOData();
+
+            //builder.Services.AddCors(options =>
+            //{
+            //    options.AddPolicy(name: MyAllowSpecificOrigins,
+            //                      policy =>
+            //                      {
+            //                          policy.WithOrigins("http://example.com",
+            //                                              "http://www.contoso.com");
+            //                      });
+            //});
+
+            //builder.Services.AddCors();
 
 
 

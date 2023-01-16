@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "PCID48NPDt6pzWX/+zPxtNFgRGPbyX6Zf7Lyj6htL4YlWSPpYR+A0ufwX2P7FE7QxDLhm4fwR1a8+QFXhHhNZg==",
+  "dgSpecHash": "+eoibz8EAIk0QTXNTFXHtfe5ndkqsDmA7FeNyo0JDPiYdNFzw5YDQ1JEKdlvO7FxYUC4hbcPiFQi21AaOuyUrg==",
   "success": true,
-  "projectFilePath": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\PetzeyPetApi.csproj",
+  "projectFilePath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\PetzeyPetApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\SFaizan\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\SFaizan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\SFaizan\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\SFaizan\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\SFaizan\\.nuget\\packages\\azure.security.keyvault.certificates\\4.1.0\\azure.security.keyvault.certificates.4.1.0.nupkg.sha512",

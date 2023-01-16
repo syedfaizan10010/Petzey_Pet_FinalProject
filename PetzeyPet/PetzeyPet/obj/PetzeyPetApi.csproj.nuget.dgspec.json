@@ -1,93 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\PetzeyPetApi.csproj": {}
+    "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\PetzeyPetApi.csproj": {}
   },
   "projects": {
-    "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetData\\PetzeyPetData.csproj": {
+    "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\Petzey.Pet.DTO\\PetzeyPetDTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetData\\PetzeyPetData.csproj",
-        "projectName": "PetzeyPetData",
-        "projectPath": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetData\\PetzeyPetData.csproj",
+        "projectUniqueName": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\Petzey.Pet.DTO\\PetzeyPetDTO.csproj",
+        "projectName": "PetzeyPetDTO",
+        "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\Petzey.Pet.DTO\\PetzeyPetDTO.csproj",
         "packagesPath": "C:\\Users\\SFaizan\\.nuget\\packages\\",
-        "outputPath": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetData\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\SFaizan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj": {
-                "projectPath": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj",
-        "projectName": "PetzeyPetDomain",
-        "projectPath": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj",
-        "packagesPath": "C:\\Users\\SFaizan\\.nuget\\packages\\",
-        "outputPath": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\obj\\",
+        "outputPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\Petzey.Pet.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -140,14 +64,14 @@
         }
       }
     },
-    "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\PetzeyPetApi.csproj": {
+    "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetBusinessLogic\\PetzeyPetBusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\PetzeyPetApi.csproj",
-        "projectName": "PetzeyPetApi",
-        "projectPath": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\PetzeyPetApi.csproj",
+        "projectUniqueName": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetBusinessLogic\\PetzeyPetBusinessLogic.csproj",
+        "projectName": "PetzeyPetBusinessLogic",
+        "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetBusinessLogic\\PetzeyPetBusinessLogic.csproj",
         "packagesPath": "C:\\Users\\SFaizan\\.nuget\\packages\\",
-        "outputPath": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\obj\\",
+        "outputPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetBusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -169,11 +93,226 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetData\\PetzeyPetData.csproj": {
-                "projectPath": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetData\\PetzeyPetData.csproj"
+              "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\Petzey.Pet.DTO\\PetzeyPetDTO.csproj": {
+                "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\Petzey.Pet.DTO\\PetzeyPetDTO.csproj"
               },
-              "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj": {
-                "projectPath": "D:\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj"
+              "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj": {
+                "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetData\\PetzeyPetData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetData\\PetzeyPetData.csproj",
+        "projectName": "PetzeyPetData",
+        "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetData\\PetzeyPetData.csproj",
+        "packagesPath": "C:\\Users\\SFaizan\\.nuget\\packages\\",
+        "outputPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetData\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SFaizan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj": {
+                "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj",
+        "projectName": "PetzeyPetDomain",
+        "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj",
+        "packagesPath": "C:\\Users\\SFaizan\\.nuget\\packages\\",
+        "outputPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SFaizan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\PetzeyPetApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\PetzeyPetApi.csproj",
+        "projectName": "PetzeyPetApi",
+        "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\PetzeyPetApi.csproj",
+        "packagesPath": "C:\\Users\\SFaizan\\.nuget\\packages\\",
+        "outputPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPet\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SFaizan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\Petzey.Pet.DTO\\PetzeyPetDTO.csproj": {
+                "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\Petzey.Pet.DTO\\PetzeyPetDTO.csproj"
+              },
+              "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetBusinessLogic\\PetzeyPetBusinessLogic.csproj": {
+                "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetBusinessLogic\\PetzeyPetBusinessLogic.csproj"
+              },
+              "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetData\\PetzeyPetData.csproj": {
+                "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetData\\PetzeyPetData.csproj"
+              },
+              "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj": {
+                "projectPath": "D:\\Petzey_Pet_FinalProject\\Petzey_Pet_FinalProject\\PetzeyPet\\PetzeyPetDomain\\PetzeyPetDomain.csproj"
               }
             }
           }

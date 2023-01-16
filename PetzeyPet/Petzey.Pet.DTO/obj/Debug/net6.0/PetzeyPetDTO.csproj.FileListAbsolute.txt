@@ -1,0 +1,12 @@
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\bin\Debug\net6.0\PetzeyPetDTO.deps.json
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\bin\Debug\net6.0\PetzeyPetDTO.dll
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\bin\Debug\net6.0\PetzeyPetDTO.pdb
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\obj\Debug\net6.0\PetzeyPetDTO.csproj.AssemblyReference.cache
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\obj\Debug\net6.0\PetzeyPetDTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\obj\Debug\net6.0\PetzeyPetDTO.AssemblyInfoInputs.cache
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\obj\Debug\net6.0\PetzeyPetDTO.AssemblyInfo.cs
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\obj\Debug\net6.0\PetzeyPetDTO.csproj.CoreCompileInputs.cache
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\obj\Debug\net6.0\PetzeyPetDTO.dll
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\obj\Debug\net6.0\refint\PetzeyPetDTO.dll
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\obj\Debug\net6.0\PetzeyPetDTO.pdb
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\obj\Debug\net6.0\ref\PetzeyPetDTO.dll
