@@ -59,6 +59,7 @@ namespace PetzeyPetData
                 PatienttoUpdate.OwnerPhoneNo = patient.OwnerPhoneNo;
                 PatienttoUpdate.Avatar = patient.Avatar;
                 PatienttoUpdate.Status = patient.Status;
+                PatienttoUpdate.ShortBiography = patient.ShortBiography;
                 db.SaveChanges();
 
             }

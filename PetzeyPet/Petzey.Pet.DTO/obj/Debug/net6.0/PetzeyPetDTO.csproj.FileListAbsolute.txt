@@ -10,3 +10,8 @@ D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\obj\
 D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\obj\Debug\net6.0\refint\PetzeyPetDTO.dll
 D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\obj\Debug\net6.0\PetzeyPetDTO.pdb
 D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\obj\Debug\net6.0\ref\PetzeyPetDTO.dll
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\bin\Debug\net6.0\PetzeyPetData.dll
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\bin\Debug\net6.0\PetzeyPetDomain.dll
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\bin\Debug\net6.0\PetzeyPetData.pdb
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\bin\Debug\net6.0\PetzeyPetDomain.pdb
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\Petzey.Pet.DTO\obj\Debug\net6.0\PetzeyPetDTO.csproj.CopyComplete

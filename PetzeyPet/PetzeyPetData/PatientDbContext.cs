@@ -15,9 +15,8 @@ namespace PetzeyPetData
             //optionsBuilder.UseSqlServer("Server=tcp:petzeyserverdb.database.windows.net,1433;Initial Catalog=petzeydatabase;Persist Security Info=False;User ID=petzey;Password=password@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             //optionsBuilder.UseSqlServer("Data Source=(localdb)\\mssqllocaldb;Initial Catalog=Patient_Database;Integrated Security=True");
             // optionsBuilder.
-            optionsBuilder.UseSqlServer("Server=tcp:petzeyserverdb.database.windows.net,1433;Initial Catalog=petzeydatabase;Persist Security Info=False;User ID=petzey;Password=password@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
-
-            builder => builder.EnableRetryOnFailure());
+            //optionsBuilder.UseSqlServer("Server=tcp:petzeyserverdb.database.windows.net,1433;Initial Catalog=petzeydatabase;Persist Security Info=False;User ID=petzey;Password=password@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+            optionsBuilder.UseSqlServer("Server=tcp:petzeyserverdb.database.windows.net,1433;Initial Catalog=petzeypet;Persist Security Info=False;User ID=petzey;Password=password@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             
             
         }

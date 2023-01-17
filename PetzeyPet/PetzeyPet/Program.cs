@@ -1,8 +1,8 @@
 using Microsoft.AspNet.OData.Extensions;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.Identity.Web;
-using Microsoft.Identity.Web.Resource;
+//using Microsoft.AspNetCore.Authentication;
+//using Microsoft.AspNetCore.Authentication.JwtBearer;
+//using NLog;
+//using NLog.Web;
 using PetzeyPetBusinessLogic.AutoMapper;
 using PetzeyPetData;
 using PetzeyPetDomain.Repository;
@@ -13,11 +13,15 @@ namespace PetzeyPet
     {
         public static void Main(string[] args)
         {
+            //var logger =NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
+            
+
             var builder = WebApplication.CreateBuilder(args);
 
+
             // Add services to the container.
-            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
+            //builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            //    .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
 
             builder.Services.AddControllers().AddNewtonsoftJson();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -28,17 +32,14 @@ namespace PetzeyPet
             builder.Services.AddAutoMapper(typeof(AutoMapperPatient).Assembly);    
             builder.Services.AddOData();
 
-            //builder.Services.AddCors(options =>
-            //{
-            //    options.AddPolicy(name: MyAllowSpecificOrigins,
-            //                      policy =>
-            //                      {
-            //                          policy.WithOrigins("http://example.com",
-            //                                              "http://www.contoso.com");
-            //                      });
-            //});
+            builder.Services.AddCors(o => o.AddPolicy("CorsPolicy", builder =>
+            {
+                builder.AllowAnyOrigin();
+                builder.AllowAnyMethod();
+                builder.AllowAnyHeader();
+            }));
 
-            //builder.Services.AddCors();
+            builder.Services.AddCors();
 
 
 
@@ -49,14 +50,18 @@ namespace PetzeyPet
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
-                app.UseRouting();
 
             }
 
             app.UseHttpsRedirection();
+            app.UseRouting();
+
 
             app.UseAuthentication();
             app.UseAuthorization();
+            app.UseCors(policyName: "CorsPolicy");
+
+
 
             app.UseEndpoints(endpoints =>
             {
@@ -66,5 +71,7 @@ namespace PetzeyPet
             });
             app.Run();
         }
+           
     }
 }
+    

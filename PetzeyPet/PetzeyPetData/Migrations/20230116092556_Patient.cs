@@ -7,6 +7,8 @@ namespace PetzeyPetData.Migrations
     /// <inheritdoc />
     public partial class Patient : Migration
     {
+        public object OwnerFirstName { get; set; }
+
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {

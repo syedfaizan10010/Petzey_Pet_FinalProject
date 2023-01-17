@@ -1,0 +1,9 @@
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPet\obj\Release\net6.0\win-x86\PubTmp\Out\appsettings.Development.json
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPet\obj\Release\net6.0\win-x86\PubTmp\Out\appsettings.json
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPet\obj\Release\net6.0\win-x86\PubTmp\Out\PetzeyPetApi.pdb
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPet\obj\Release\net6.0\win-x86\PubTmp\Out\Microsoft.Data.SqlClient.SNI.dll
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPet\obj\Release\net6.0\win-x86\PubTmp\Out\PetzeyPetDTO.pdb
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPet\obj\Release\net6.0\win-x86\PubTmp\Out\PetzeyPetBusinessLogic.pdb
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPet\obj\Release\net6.0\win-x86\PubTmp\Out\PetzeyPetData.pdb
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPet\obj\Release\net6.0\win-x86\PubTmp\Out\PetzeyPetDomain.pdb
+D:\Petzey_Pet_FinalProject\Petzey_Pet_FinalProject\PetzeyPet\PetzeyPet\obj\Release\net6.0\win-x86\PubTmp\Out\PetzeyPetApi.exe

@@ -15,7 +15,7 @@ namespace PetzeyPetApi.Controllers
     [ApiController]
     public class PatientController : ControllerBase
     {
-        private IPatient repo ;
+        private IPatient repo;
         private IMapper mapper;
 
         public PatientController(IPatient repo , IMapper mapper)
